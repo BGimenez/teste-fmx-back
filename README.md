@@ -2,7 +2,9 @@
 
 Essa API foi construida como forma de prova técnica para empresa FMX.
 Foi utilizado uma estrutura de aplicação simples, pensando em uma arquitetura monolítica.
+
 Nela, foi utilizado o framework Spring com a linguagem de programação Java (JDK 17). Para o banco de dados, foi utilizado o PostgreSQL para a API e H2 para os testes da aplicação .
+
 Para tornar a execução do banco de dados mais simples, sem a necessidade de instalação do mesmo e de um SGBD (Sistema de Gerenciamento de Banco de dados), foi utilizado a plataforma de serviço de virtualização Docker.
 
 ## Pré-requisitos para a execução da API
