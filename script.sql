@@ -1,0 +1,1 @@
+insert into permissao (descricao, padrao) values ('Acesso ao Sistema', true);

@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: development
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/dbg
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create #quando executar a aplicacao pela primeira vez, troque por create
+    show-sql: true
+    database: POSTGRESQL
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  server:
+    port: 8080
