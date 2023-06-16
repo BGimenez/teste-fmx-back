@@ -26,14 +26,14 @@ Para a execução da API, dever-se-á seguir os seguintes passos:
     
     
 4. No navegador (de preferencia o Chrome), acessar a URL `http://localhost:8077/` e seguir as seguintes etapas (esse processo é somente para a primeira execução):
-      1. No campo *System* selecionar *PostgreSQL*;
-      2. No campo *Username* informar *postgres*;
-      3. No campo *Password* informar *postgres*;
-      4. Clicar no botão *Login*
-      5. Clicar no bbotão *Criar base de dados*
-      6. No campo, informar *dbg* e clicar em salvar;
-      7. Na lateral esquerda, clicar em *Comando SQL*
-      8. Na caixa de texto, inserir o comando abaixo e clicar em *Executar*
+      1. No campo **System** selecionar **PostgreSQL**;
+      2. No campo **Username** informar **postgres**;
+      3. No campo **Password** informar **postgres**;
+      4. Clicar no botão **Login**;
+      5. Clicar no bbotão **Criar base de dados**;
+      6. No campo, informar **dbg** e clicar em salvar;
+      7. Na lateral esquerda, clicar em **Comando SQL**;
+      8. Na caixa de texto, inserir o comando abaixo e clicar em **Executar**:
       
       
           `insert into permissao (descricao, padrao) values ('Acesso ao Sistema', true);`
